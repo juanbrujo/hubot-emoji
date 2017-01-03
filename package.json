@@ -1,0 +1,23 @@
+{
+  "name": "hubot-emoji-creator",
+  "version": "0.1.0",
+  "description": "Hubot emoji find & replace from a given string",
+  "main": "hubot-emoji.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanbrujo/hubot-emoji.git"
+  },
+  "keywords": [
+    "hubot",
+    "emoji"
+  ],
+  "author": "Jorge Epuñan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanbrujo/hubot-emoji/issues"
+  },
+  "homepage": "https://github.com/juanbrujo/hubot-emoji#readme",
+  "dependencies": {
+    "emoji-alphabet": "^1.0.3"
+  }
+}
