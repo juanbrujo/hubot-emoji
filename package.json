@@ -1,6 +1,6 @@
 {
   "name": "hubot-emoji-creator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Hubot emoji find & replace from a given string",
   "main": "hubot-emoji.js",
   "repository": {

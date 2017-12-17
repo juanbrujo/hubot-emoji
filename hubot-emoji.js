@@ -10,7 +10,11 @@
 var alphabet = require('emoji-alphabet').alphabet;
 
 function getRandom( arr ) {
-  return arr[ Math.floor( Math.random() * arr.length ) ];
+  if (arr.constructor === Array) {
+    return arr[ Math.floor( Math.random() * arr.length ) ];
+  } else {
+    return arr;
+  }
 }
 
 module.exports = function(robot) {
